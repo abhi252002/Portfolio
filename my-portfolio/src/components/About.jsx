@@ -1,5 +1,5 @@
 import React from "react";
-import abhi from "../assets/abhi.png";
+import abhi from "/src/assets/abhi.png";
 function About() {
   return (
     <div id="about" className="bg-black text-white py-20">

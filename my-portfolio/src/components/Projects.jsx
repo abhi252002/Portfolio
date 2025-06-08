@@ -65,8 +65,8 @@ function Projects() {
             <img src={project.Image} alt={project.name} className='rounded-lg mb-4 w-full h-48 object-cover'/>
             <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
             <p className="mt-2 text-gray-400 mb-4">{project.technologies}</p>
-            <a href={project.github} className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full " target='_blink' rel="noopener noreferred" >GitHub</a>
-            <a href={project.live} className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target='_blink' rel="noopener noreferred">Live Preview</a>
+            <a href={project.github} className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full " target='_blank' rel="noopener noreferred" >GitHub</a>
+            <a href={project.live} className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target='_blank' rel="noopener noreferred">Live Preview</a>
           </div>
         ))}
 
