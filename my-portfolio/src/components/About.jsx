@@ -1,8 +1,8 @@
 import React from "react";
-
+import abhi from "../assets/abhi.png";
 function About() {
   return (
-    <div className="bg-black text-white py-20" id="about">
+    <div id="about" className="bg-black text-white py-20">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
 
@@ -10,7 +10,7 @@ function About() {
           {/* Left Side: Image */}
           <div className="w-full md:w-1/3 flex justify-center md:justify-start">
             <img
-              src="./src/assets/abhi.png"
+              src={abhi}
               alt="Abhishek Prajapati"
               className="w-72 h-80 rounded object-cover"
             />
