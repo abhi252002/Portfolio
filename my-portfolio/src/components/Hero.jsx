@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 function Hero() {
   return (
     <div className='bg-black text-center py-16 '> 
-      <img src="./src/assets/abhi.png" alt="Abhi img" className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105' />
+      <img src="/abhi.png" alt="Abhi img" className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105' />
       <h1 className='text-4xl font-bold text-white'>
        I'm {""}
        <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Abhishek Prajapati,</span>  Front-End Developer

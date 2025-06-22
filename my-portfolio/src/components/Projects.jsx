@@ -6,7 +6,7 @@ import textToImage from "/src/assets/textToImage.png"
 import quizApp from "/src/assets/quizApp.png"
 import photogr from "/src/assets/photogr.png"
 
-import abhi from "/src/assets/abhi.png"
+import abhi from "/src/assets/abhi1.png"
 function Projects() {
   const projects = [
   
